@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Brady Marston</Authors>
+    <Company>ShadySoft</Company>
+    <Description>A very simple interface (IAsyncOptionsProvider&lt;TOptions&gt;) and IServiceCollection extension method (ConfigureAsyncOptions&lt;TOptions&gt;) for handling options that need to be populated asynchronously at runtime in Asp.Net's DI framework.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/bradymarston/ShadySoft.AsyncOptions.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
